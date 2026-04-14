@@ -156,6 +156,21 @@ It is a **Copilot customization demo** built around a realistic internal applica
 
 ---
 
+## Prompt 1 — Bootstrap the application
+
+Copy and paste this prompt into Copilot Chat to kick off the hands-on:
+
+> We are building PolicyFlow, an internal expense management application using a light Vertical Slice Architecture. Start with a planning phase using @planner-policyflow. Think in terms of affected slices, not horizontal layers. Create the initial structure for these slices:
+> - Expenses/List
+> - Expenses/Create
+> - Expenses/Details
+> - Expenses/Approve
+> - Expenses/Reject
+>
+> Keep Shared minimal and only for true cross-slice concerns such as domain entities, AppDbContext. Produce a beautiful and astonishing UI. Use the MCP Playwright to validate the application. At the end, summarize the affected slices, the Shared dependencies created, and the next best prompt.
+
+---
+
 ## Resources
 
 Curated links to learn more about GitHub Copilot customization and the broader AI-assisted development ecosystem.
