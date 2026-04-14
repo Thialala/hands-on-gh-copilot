@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "hooks": {
+    "preToolUse": [
+      {
+        "type": "command",
+        "bash": "./.github/hooks/scripts/pre-tool-guard.sh",
+        "timeoutSec": 20
+      }
+    ],
+    "postToolUse": [
+      {
+        "type": "command",
+        "bash": "./.github/hooks/scripts/post-tool-log.sh",
+        "timeoutSec": 20
+      },
+      {
+        "type": "command",
+        "bash": "./.github/hooks/scripts/run-tests-on-change.sh",
+        "powershell": "powershell -ExecutionPolicy Bypass -File ./.github/hooks/scripts/run-tests-on-change.ps1",
+        "timeoutSec": 60
+      }
+    ]
+  }
+}
