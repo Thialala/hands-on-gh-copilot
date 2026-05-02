@@ -1,0 +1,29 @@
+Sat May  2 22:37:48 UTC 2026,view,success,".git
+.github
+.vscode
+README.md"
+Sat May  2 22:37:52 UTC 2026,view,success,"agents
+aw
+copilot-instructions.md
+hooks
+skills
+workflows"
+Sat May  2 22:37:52 UTC 2026,view,success,"1. # PolicyFlow
+2. 
+3. PolicyFlow is a demo application built for **GitHub Copilot Days**.
+4. 
+5. Its purpose is not only to build a small internal **expense management application**, but also to demo"
+Sat May  2 22:37:57 UTC 2026,view,success,"orchestrator-policyflow.md
+planner-policyflow.md
+qa-policyflow.md
+slice-implementation-policyflow.md
+ui-policyflow.md"
+Sat May  2 22:37:57 UTC 2026,view,success,"add-business-rule
+frontend-design
+generate-tests
+implement-slice"
+Sat May  2 22:37:57 UTC 2026,view,success,"policyflow-guardrails.json
+scripts
+tool-results.csv
+tool-usage.log"
+Sat May  2 22:37:57 UTC 2026,view,success,"actions-lock.json"
