@@ -90,6 +90,19 @@ The repository is organized by **business use case**, not by horizontal technica
 └────────────────────┘
 ```
 
+### Agent orchestration diagram
+
+```mermaid
+graph TD
+  User["User Prompt"] --> Orch["@orchestrator-policyflow<br/>Claude Opus 4.6"]
+  Orch --> Plan["@planner-policyflow<br/>Claude Opus 4.6"]
+  Plan --> |"saves plan"| Plans["plans/*.md"]
+  Orch --> Impl["@slice-implementation-policyflow<br/>GPT-5.4"]
+  Orch --> UI["@ui-policyflow<br/>Gemini 3.1 Pro"]
+  Orch --> QA["@qa-policyflow<br/>Claude Opus 4.6"]
+  QA --> |"Playwright MCP"| Browser["Browser Validation"]
+```
+
 ---
 
 ## Repository structure
